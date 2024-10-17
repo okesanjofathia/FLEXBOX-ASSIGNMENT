@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* FLEX DIRECTION */
+.flex-row {
+    display: flex;
+    gap: 1rem;
+    background-color: brown;
+    padding: 30px;
+    flex-direction: row;
+}
+
+.flex-row>div {
+    background-color: blueviolet;
+    padding: 10px;
+    color: black;
+}
+
+.flex-column {
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+}
+
+.flex-column>div {
+    background-color: blue;
+    padding: 10px;
+    color: wheat;
+}
+
+.flex-row-reverse {
+    display: flex;
+    gap: 1rem;
+    background-color: burlywood;
+    padding: 30px;
+    flex-direction: row-reverse;
+}
+
+.flex-row-reverse>div {
+    background-color: purple;
+    padding: 10px;
+    color: black;
+}
+
+.flex-column-reverse {
+    display: flex;
+    gap: 1rem;
+    flex-direction: column-reverse;
+}
+
+.flex-column-reverse>div {
+    background-color: navy;
+    padding: 10px;
+    color: white;
+}
+
+/* Justify Content */
+.Justify-flex-start {
+    display: flex;
+    gap: 0.6rem;
+    background-color: red;
+    padding: 30px;
+    justify-content: flex-start;
+}
+
+.Justify-flex-start>div {
+    background-color: yellow;
+    padding: 10px;
+    color: brown;
+}
+
+.Justify-flex-end {
+    display: flex;
+    gap: 0.6rem;
+    background-color: blue;
+    padding: 30px;
+    justify-content: flex-end;
+}
+
+.Justify-flex-end>div {
+    background-color: palevioletred;
+    padding: 10px;
+    color: black;
+}
+
+.Justify-center {
+    display: flex;
+    gap: 0.6rem;
+    background-color: orangered;
+    padding: 30px;
+    justify-content: center;
+}
+
+.Justify-center>div {
+    background-color: green;
+    padding: 10px;
+    color: purple;
+}
+
+.Justify-space-evenly{
+    display: flex;
+    gap: 0.6rem;
+    background-color: powderblue;
+    padding: 30px;
+    justify-content: space-evenly;
+}
+.Justify-space-evenly>div{
+    background-color: brown;
+    padding: 10px;
+    color: cornsilk;
+}
+.Justify-space-around{
+    display: flex;
+    gap: 0.6rem;
+    background-color: plum;
+    padding: 30px;
+    justify-content: space-around;
+}
+.Justify-space-around>div{
+    background-color: olivedrab;
+    padding: 10px;
+    color: crimson;
+}
+
+.Justify-space-between{
+    display: flex;
+    gap: 0.6rem;
+    background-color: chocolate;
+    padding: 30px;
+    justify-content: space-between;
+}
+.Justify-space-between>div{
+    background-color: cornflowerblue;
+    padding: 10px;
+    color: peru;
+}
